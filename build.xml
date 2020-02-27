@@ -19,14 +19,14 @@
     </path>
 
 
-    <target name="test">
+    <target name="compile">
         <mkdir dir="${result.javaclasses.dir}"/>
         <javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true"  includeantruntime="false">
         </javac>
     </target>
 
 
-    <target name="test-testcases" depends="compile">
+    <target name="compile-testcases" depends="compile">
         <mkdir dir="${result.testclasses.dir}"/>
         <javac srcdir="${src.test.dir}"  destdir="${result.testclasses.dir}" debug="true" includeantruntime="false">
             <classpath>
