@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project default="compile">
 
-<property name="src.test.dir" location="./Calc/src/test/test"/>
+<property name="src.test.dir" location="./test/test"/>
     <property name="src.java.dir" location="./src/calc/Calc"/>
     
     <property name="result.dir" location="./target"/>
