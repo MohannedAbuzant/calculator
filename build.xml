@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <project default="compile">
 
-<property name="src.test.dir" location="./test/test"/>
-    <property name="src.java.dir" location="./src/calc/Calc"/>
-    
+    <property name="src.test.dir" location="./test/test"/>
+    <property name="src.java.dir" location="./calc/Calc"/>
     <property name="result.dir" location="./target"/>
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
